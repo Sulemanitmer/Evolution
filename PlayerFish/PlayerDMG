@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+
+public class Pdmg : MonoBehaviour {
+
+	public int PATK = 1;
+	
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		var EmainHP = other.GetComponent<EMainHP> ();
+		if (EmainHP == null)
+			return;
+		EmainHP.ETakingDPS (PATK);
+	}
+}

@@ -1,0 +1,47 @@
+using UnityEngine;
+using System.Collections;
+
+public class MainHP : MonoBehaviour 
+{
+	public float MaxHP = 2;
+	public float HP { get; private set;}
+	
+	private GameObject StopUI;
+
+	void Start ()
+	{
+		HP = MaxHP;
+	}
+	void Update()
+	{
+		if (HP <= 1) 
+		{
+			HP +=70;
+		}
+	}
+	void Die()
+	{
+		Debug.Log ("GAME OVER");
+		StopUI.SetActive (true);
+		Destroy(gameObject);
+	}
+	public void TakingDPS (int ATK)
+	{
+		HP -= ATK;
+		
+		if ( HP <= 0) 
+		{ 
+			HP = MaxHP;
+			Die ();
+		}
+	}
+	public void Healing (int HPs)
+	{
+		HP += HPs;
+		
+		if (HP >= 5) 
+		{
+			HP += 11;
+		} 
+	}
+}

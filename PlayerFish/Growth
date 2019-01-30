@@ -1,0 +1,35 @@
+using UnityEngine;
+using System.Collections;
+
+public class Growth : MonoBehaviour 
+{
+	public float MaxEvo = 0f;
+	public float Evolve { get; private set;}
+	[SerializeField]
+	private GameObject StopUI;
+
+
+	void Start ()
+	{
+  	Evolve = MaxEvo;
+	}
+	void Update()
+	{
+    transform.localScale = new Vector3 (1f+Evolve, 1f+Evolve, 0f);
+
+		if (transform.localScale.x >= 3.25f) 
+		{
+			Win ();
+		}
+	}
+	public void Eating ( float MPs )
+	{
+		Evolve += MPs;
+	}
+	void Win()
+	{
+		StopUI.SetActive (true);
+
+	}
+
+}

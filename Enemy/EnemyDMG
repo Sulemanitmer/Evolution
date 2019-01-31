@@ -1,0 +1,16 @@
+using UnityEngine;
+using System.Collections;
+
+public class Damage : MonoBehaviour {
+
+	public int ATK = 1;
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		var mainHP = other.GetComponent<MainHP> ();
+		if (mainHP == null)
+			return;
+		mainHP.TakingDPS (ATK);
+	}
+
+}

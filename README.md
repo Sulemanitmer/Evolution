@@ -18,12 +18,12 @@ A Clown Fish named, "Lalu" will go though series of events to get his beloved go
 fortunatly, Lalu's friend is a turtle who is remarkbly intelegent. He has a device called, "Milk from the surface" that will help lalu grow stronger to beat the BBW.
 
 
--endings
+_Endings
 There are two ending one is in which we find out that the turtle was just experimenting on us to control the sea.
 And the other is in which we find out the truth about evelin. the gold fish is a gold digger and she willingly ran away with the BBW.
 Thus explaining the morle of the story. Love is Evol but it's nessary for  Evolution. 
 
-#Gameplay
+# Gameplay
 The Player Fish will eat the smallest fish. Once the smallest fish has been eaten they will get a star which will indicating that they can eat the second level of fish. once second level fish are gone they will get another star indicating they can eat the third level of fish. 
 
 

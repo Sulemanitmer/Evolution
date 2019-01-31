@@ -19,6 +19,7 @@ fortunatly, Lalu's friend is a turtle who is remarkbly intelegent. He has a devi
 
 
 _Endings
+
 There are two ending one is in which we find out that the turtle was just experimenting on us to control the sea.
 And the other is in which we find out the truth about evelin. the gold fish is a gold digger and she willingly ran away with the BBW.
 Thus explaining the morle of the story. Love is Evol but it's nessary for  Evolution. 

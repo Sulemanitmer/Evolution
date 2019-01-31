@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+
+public class FOOD : MonoBehaviour {
+
+	public float MPs = 0.25f;
+	
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		var growth = other.GetComponent<Growth> ();
+		if (growth == null)
+			return;
+		growth.Eating (MPs);
+	}
+}

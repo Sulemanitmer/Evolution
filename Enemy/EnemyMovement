@@ -1,0 +1,44 @@
+using UnityEngine;
+using System.Collections;
+
+public class Randommotion : MonoBehaviour 
+{
+	public float MinForce = 0.5f;
+	public float MaxForce = 0.8f;
+	public float DirectionChange = 1f;
+
+
+	// Use this for initialization
+	void Start () 
+	{
+
+		push ();
+		InvokeRepeating ("change", 1.0f, 1.0f);
+	
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+
+	}
+	void change()
+	{
+		DirectionChange = Time.deltaTime;
+		if (DirectionChange < 2)
+		{ 
+			push();
+			DirectionChange = 1f;
+			
+		}
+	}
+	void push ()
+	{
+		float magnitude = Random.Range (MinForce, MaxForce);
+		float x = Random.Range (-1f, 1f);
+		float y = Random.Range (-1f, 1f);
+		
+		GetComponent<Rigidbody2D> ().AddForce (magnitude * new Vector2 (x, y));
+	}
+
+}

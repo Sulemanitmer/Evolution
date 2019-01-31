@@ -1,0 +1,240 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class Stop : MonoBehaviour 
+{
+
+
+	// Use this for initialization
+	void Start () 
+	{
+
+	
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
+	public void play1111 ()
+	{
+		Application.LoadLevel ("CutShot1");
+		
+	}
+
+
+
+	public void Replay ()
+	{
+		Application.LoadLevel ("LVL1");
+	}
+	public void Replay2 ()
+	{
+		Application.LoadLevel ("LVL2");
+	}
+	public void Replay3 ()
+	{
+		Application.LoadLevel ("LVL3");
+	}
+	public void Replay4 ()
+	{
+		Application.LoadLevel ("LVL4");
+	}
+	public void Replay5 ()
+	{
+		Application.LoadLevel ("LVL5");
+	}
+	public void Replay6 ()
+	{
+		Application.LoadLevel ("LVL6");
+	}
+	public void Replay7 ()
+	{
+		Application.LoadLevel ("LVL7");
+	}
+	public void Replay8 ()
+	{
+		Application.LoadLevel ("LVL8");
+	}
+	public void Exit ()
+	{
+		Application.Quit ();
+	}
+	public void IntotheCut ()
+	{
+	
+		Application.LoadLevel ("CutShot2 1");
+	}
+	public void IntotheCut2 ()
+	{
+		Application.LoadLevel ("CutShot3 1");
+	}
+	public void IntotheCut3 ()
+	{
+		Application.LoadLevel ("CutShot4 1");
+	}
+	public void IntotheCut4 ()
+	{
+		Application.LoadLevel ("CutShot5 1");
+	}
+	public void IntotheCut5 ()
+	{
+		Application.LoadLevel ("CutShot6 1");
+	}
+	public void IntotheCut6 ()
+	{
+		Application.LoadLevel ("CutShot8 1");
+	}
+	public void Intothegame4 ()
+	{
+		Application.LoadLevel ("LVL4");
+	}
+	public void Intothegame6 ()
+	{
+		Application.LoadLevel ("LVL6");
+	}
+	public void play ()
+	{
+		Application.LoadLevel ("CutShot2");
+	}
+	public void play2 ()
+	{
+		Application.LoadLevel ("CutShot3");
+	}
+	public void play3 ()
+	{
+		Application.LoadLevel ("CutShot4");
+	}
+	public void play4 ()
+	{
+		Application.LoadLevel ("CutShot5");
+	}
+	public void play5 ()
+	{
+		Application.LoadLevel ("CutShot6");
+	}
+	public void play6 ()
+	{
+		Application.LoadLevel ("CutShot7");
+	}
+	public void play7 ()
+	{
+		Application.LoadLevel ("CutShot8");
+	}
+	public void play8 ()
+	{
+		Application.LoadLevel ("CutShot9") ;
+	}
+	public void play9 ()
+	{
+		Application.LoadLevel ("CutShot10");
+	}
+	public void play10 ()
+	{
+		Application.LoadLevel ("CutShot11");
+	}
+	public void play11 ()
+	{
+		Application.LoadLevel ("CutShot12");
+	}
+	public void play121 ()
+	{
+		Application.LoadLevel ("CutShot12 1");
+	}
+	public void play12 ()
+	{
+		Application.LoadLevel ("CutShot13");
+	}
+	public void play13 ()
+	{
+		Application.LoadLevel ("CutShot14");
+	}
+	public void play14 ()
+	{
+		Application.LoadLevel ("CutShot15");
+	}
+	public void play141 ()
+	{
+		Application.LoadLevel ("CutShot14 1");
+	}
+	public void play15 ()
+	{
+		Application.LoadLevel ("CutShot15 1");
+		
+	}
+	public void play151 ()
+	{
+		Application.LoadLevel ("CutShot16");
+		
+	}
+	public void IntotheGame ()
+	{
+		Application.LoadLevel ("LVL1");
+	}
+	public void play16 ()
+	{
+		Application.LoadLevel ("CutShot2 2");
+	}
+	public void play17()
+	{
+		Application.LoadLevel ("CutShot2 3");
+	}
+	public void play18()
+	{
+		Application.LoadLevel ("CutShot2 4");
+	}
+	public void play19 ()
+	{
+		Application.LoadLevel ("CutShot2 5");
+	}
+	public void play20 ()
+	{
+		Application.LoadLevel ("CutShot2 6");
+	}
+	public void play21 ()
+	{
+		Application.LoadLevel ("CutShot2 7");
+	}
+	public void play22 ()
+	{
+		Application.LoadLevel ("CutShot2 8");
+	}
+	public void play23 ()
+	{
+		Application.LoadLevel ("CutShot2 9");
+	}
+	public void play24 ()
+	{
+		Application.LoadLevel ("CutShot2 10");
+	}
+	public void play25 ()
+	{
+		Application.LoadLevel ("CutShot2 11");
+	}
+	public void play26 ()
+	{
+		Application.LoadLevel ("CutShot2 12");
+	}
+	public void play27 ()
+	{
+		Application.LoadLevel ("CutShot2 13");
+	}
+	public void IntotheGame2 ()
+	{
+		Application.LoadLevel ("lvl2");
+	}
+	public void play28 ()
+	{
+		Application.LoadLevel ("CutShot2 14");
+	}
+	public void play29 ()
+	{
+		Application.LoadLevel ("CutShot2 15");
+	}
+	public void play30 ()
+	{
+		Application.LoadLevel ("CutShot2 16");
+	}
+}

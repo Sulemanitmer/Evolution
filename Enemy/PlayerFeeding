@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+
+public class FrictionApplied : MonoBehaviour {
+
+	public float FF = 0.25f;
+	
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		var mmf = other.GetComponent<MMF> ();
+		if (mmf == null)
+			return;
+		mmf.Friction (FF);
+	}
+}

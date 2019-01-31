@@ -1,0 +1,27 @@
+using UnityEngine;
+using System.Collections;
+
+public class Rotation : MonoBehaviour 
+{
+	Vector3 cur_temppos;
+	Vector3 last_temppos;
+
+
+	// Use this for initialization
+	void Start () 
+	{
+
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+		cur_temppos = transform.position;
+		if (cur_temppos.x  > last_temppos.x )
+			transform.eulerAngles = new Vector2 (0, 0);
+		if (cur_temppos.x < last_temppos.x )
+			transform.eulerAngles = new Vector2 (0, 180);
+		last_temppos.x = cur_temppos.x;
+
+	}
+}

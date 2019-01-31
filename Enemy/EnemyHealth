@@ -1,0 +1,32 @@
+using UnityEngine;
+using System.Collections;
+
+public class EMainHP : MonoBehaviour {
+
+	public float EMaxHP = 1;
+	public float EHP { get; private set;}
+
+	void Start ()
+	{
+		EHP = EMaxHP;
+	}
+	void Update()
+	{
+
+	}
+	void Die()
+	{
+		
+		Destroy(gameObject);
+	}
+	public void ETakingDPS (int PATK)
+	{
+		EHP -= PATK;
+		
+		if ( EHP <= 0) 
+		{ 
+			
+			Die ();
+		}
+	}
+}
